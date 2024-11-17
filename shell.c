@@ -18,7 +18,6 @@
 
 char *color = YELLOW;
 struct History *hist;
-struct termios *term;
 
 char *lsh_read_line(void) {
   char *line = NULL;
